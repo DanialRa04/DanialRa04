@@ -36,6 +36,9 @@ Alongside this core focus, I work with React and frontend technologies on indepe
   <img src="https://img.shields.io/badge/Pandas-161b22?style=flat-square&logo=pandas&logoColor=bc8cff" alt="Pandas" />
   <img src="https://img.shields.io/badge/SciPy-161b22?style=flat-square&logo=scipy&logoColor=58a6ff" alt="SciPy" />
   <img src="https://img.shields.io/badge/Matplotlib-161b22?style=flat-square&logo=python&logoColor=ff7b72" alt="Matplotlib" />
+  <img src="https://img.shields.io/badge/Seaborn-161b22?style=flat-square&logo=python&logoColor=79c0ff" alt="Seaborn" />
+  <img src="https://img.shields.io/badge/PyWavelets_(PyWT)-161b22?style=flat-square&logo=python&logoColor=bc8cff" alt="PyWavelets (PyWT)" />
+  <img src="https://img.shields.io/badge/Tkinter-161b22?style=flat-square&logo=python&logoColor=3fb950" alt="Tkinter" />
   <img src="https://img.shields.io/badge/Bokeh-161b22?style=flat-square&logo=bokeh&logoColor=d2a8ff" alt="Bokeh" />
   <img src="https://img.shields.io/badge/Jupyter-161b22?style=flat-square&logo=jupyter&logoColor=f0883e" alt="Jupyter" />
   <img src="https://img.shields.io/badge/MATLAB-161b22?style=flat-square&logo=mathworks&logoColor=79c0ff" alt="MATLAB" />
