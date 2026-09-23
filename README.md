@@ -12,15 +12,11 @@
 
 ## Hello
 
-I'm **Danial Rahimi**, a Biomedical Engineering BSc student at **Amirkabir University of Technology** and an AI developer and researcher with four years of experience exploring how intelligent systems can make sense of biomedical signals.
+I'm **Danial Rahimi**, an AI developer and researcher working in biomedical engineering, currently pursuing a BSc at **Amirkabir University of Technology**. Since 2021, I have developed and evaluated machine learning and deep learning systems for complex biomedical data, with an emphasis on rigorous experimentation, signal analysis, and research-driven implementation.
 
-My main interests live at the intersection of **deep learning, signal processing, and neuroscience**. I work with ideas such as self-supervised learning, transformers, hybrid architectures, and transfer learning, particularly for Parkinson's biomarkers, EEG, and related biomedical problems.
+My work spans **deep learning, biomedical signal processing, computational neuroscience, and neuroscience-oriented AI**. I have experience with self-supervised learning, transformer-based models, hybrid architectures, transfer learning, and end-to-end research pipelines for varied biomedical and neural data.
 
-When I step outside the research loop, I build small frontend projects with React. I think of them as creative side quests: a different way to turn ideas into something people can see and use.
-
-```text
-Curiosity drives the question. Research shapes the method. Code makes it testable.
-```
+Alongside this core focus, I work with React and frontend technologies on independent projects that combine technical implementation with interface design.
 
 ## Technical landscape
 
