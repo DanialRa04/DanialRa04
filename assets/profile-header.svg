@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="260" viewBox="0 0 1000 260" role="img" aria-labelledby="title desc">
+  <title id="title">Danial Rahimi</title>
+  <desc id="desc">Biomedical AI developer and researcher. Animated signal traces move across a dark GitHub-inspired background.</desc>
+
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117" />
+      <stop offset="0.52" stop-color="#111827" />
+      <stop offset="1" stop-color="#0d1117" />
+    </linearGradient>
+    <linearGradient id="signal" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#58a6ff" stop-opacity="0" />
+      <stop offset="0.30" stop-color="#58a6ff" />
+      <stop offset="0.67" stop-color="#bc8cff" />
+      <stop offset="1" stop-color="#3fb950" stop-opacity="0" />
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#30363d" stroke-width="1" opacity="0.28" />
+    </pattern>
+    <filter id="glow" x="-20%" y="-100%" width="140%" height="300%">
+      <feGaussianBlur stdDeviation="3.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <clipPath id="rounded">
+      <rect width="1000" height="260" rx="18" />
+    </clipPath>
+  </defs>
+
+  <style>
+    .trace { stroke-dasharray: 1050; stroke-dashoffset: 1050; animation: draw 5.5s ease-in-out infinite; }
+    .node { animation: pulse 2.4s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    .phrase { opacity: 0; animation: phrase 12s ease-in-out infinite; }
+    .phrase.two { animation-delay: 4s; }
+    .phrase.three { animation-delay: 8s; }
+    @keyframes draw {
+      0% { stroke-dashoffset: 1050; opacity: 0.15; }
+      18%, 70% { stroke-dashoffset: 0; opacity: 0.95; }
+      100% { stroke-dashoffset: -1050; opacity: 0.12; }
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 0.35; transform: scale(0.8); }
+      50% { opacity: 1; transform: scale(1.35); }
+    }
+    @keyframes phrase {
+      0%, 3%, 31%, 100% { opacity: 0; transform: translateY(5px); }
+      8%, 26% { opacity: 1; transform: translateY(0); }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .trace, .node, .phrase { animation: none; }
+      .trace { stroke-dashoffset: 0; }
+      .phrase.one { opacity: 1; }
+    }
+  </style>
+
+  <g clip-path="url(#rounded)">
+    <rect width="1000" height="260" fill="url(#background)" />
+    <rect width="1000" height="260" fill="url(#grid)" />
+    <circle cx="70" cy="45" r="135" fill="#1f6feb" opacity="0.07" />
+    <circle cx="940" cy="225" r="170" fill="#8957e5" opacity="0.07" />
+
+    <path class="trace" d="M-20 193 H105 l15 -8 14 8 h50 l11 -18 12 36 15 -18 h59 l12 -6 10 6 h72 l12 -31 14 62 13 -31 h47 l12 -10 13 10 h88 l10 -19 12 38 14 -19 h56 l15 -8 13 8 h74 l12 -28 14 56 13 -28 h62 l11 -10 15 10 H1020" fill="none" stroke="url(#signal)" stroke-width="2.4" filter="url(#glow)" />
+
+    <g fill="#58a6ff">
+      <circle class="node" cx="120" cy="185" r="3.2" />
+      <circle class="node" cx="402" cy="162" r="3.2" style="animation-delay:.6s" />
+      <circle class="node" cx="690" cy="174" r="3.2" style="animation-delay:1.2s" />
+      <circle class="node" cx="874" cy="165" r="3.2" style="animation-delay:1.8s" />
+    </g>
+
+    <text x="500" y="83" text-anchor="middle" fill="#f0f6fc" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="42" font-weight="700" letter-spacing="1.5">DANIAL RAHIMI</text>
+    <text x="500" y="116" text-anchor="middle" fill="#8b949e" font-family="Consolas, SFMono-Regular, monospace" font-size="14" letter-spacing="3">BIOMEDICAL AI  ·  SIGNALS  ·  DEEP LEARNING</text>
+
+    <g text-anchor="middle" font-family="Consolas, SFMono-Regular, monospace" font-size="14">
+      <text class="phrase one" x="500" y="151" fill="#58a6ff">research → models → meaning</text>
+      <text class="phrase two" x="500" y="151" fill="#bc8cff">curiosity → experiments → insight</text>
+      <text class="phrase three" x="500" y="151" fill="#3fb950">biomedical signals → intelligent systems</text>
+    </g>
+  </g>
+
+  <rect x="0.75" y="0.75" width="998.5" height="258.5" rx="17.25" fill="none" stroke="#30363d" stroke-width="1.5" />
+</svg>
