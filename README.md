@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/profile-header.svg" width="100%" alt="Danial Rahimi — Biomedical AI developer and researcher" />
+  <img src="./assets/profile-header.gif" width="100%" alt="Danial Rahimi — Biomedical AI developer and researcher" />
 </p>
 
 <p align="center">
