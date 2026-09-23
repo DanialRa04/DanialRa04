@@ -55,14 +55,6 @@ Alongside this core focus, I work with React and frontend technologies on indepe
   <img src="https://img.shields.io/badge/CSS3-161b22?style=for-the-badge&logo=css&logoColor=79c0ff" alt="CSS3" />
 </p>
 
-## GitHub snapshot
-
-<!-- These cards describe public repository activity, not overall expertise. -->
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=DanialRa04&show_icons=true&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=bc8cff&ring_color=3fb950" alt="Danial's GitHub statistics" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DanialRa04&layout=compact&langs_count=8&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" alt="Most-used languages in Danial's public repositories" />
-</p>
-
 ## Let's connect
 
 I'm open to thoughtful conversations, research collaboration, open-source work, and interesting engineering problems, especially where **AI meets biomedical data**.
