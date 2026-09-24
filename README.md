@@ -54,6 +54,7 @@ Alongside this core focus, I work with React and frontend technologies on indepe
   <a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><img src="https://img.shields.io/badge/HTML5-161b22?style=for-the-badge&logo=html5&logoColor=f0883e" alt="HTML5" /></a>
   <a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img src="https://img.shields.io/badge/CSS3-161b22?style=for-the-badge&logo=css&logoColor=79c0ff" alt="CSS3" /></a>
 </p>
+
 ## Let's connect
 
 I'm open to thoughtful conversations, research collaboration, open-source work, and interesting engineering problems, especially where **AI meets biomedical data**.
