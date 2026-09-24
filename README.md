@@ -6,7 +6,6 @@
   <a href="mailto:daniyalrahim83@gmail.com">
     <img src="https://img.shields.io/badge/Email-daniyalrahim83%40gmail.com-238636?style=flat-square&logo=gmail&logoColor=white" alt="Email Danial" />
   </a>
-  <img src="https://img.shields.io/badge/Based_in-Iran-30363d?style=flat-square&logo=googlemaps&logoColor=8b949e" alt="Based in Iran" />
   <img src="https://img.shields.io/badge/Open_to-Collaboration-8957e5?style=flat-square" alt="Open to collaboration" />
 </p>
 
